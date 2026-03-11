@@ -1,38 +1,152 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-<title>PAS A PAS</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PAS A PAS | Les bonnes occasions</title>
+
+<style>
+
+body{
+font-family:Arial;
+margin:0;
+background:#f5f1ec;
+text-align:center;
+}
+
+header{
+background:#35552f;
+color:white;
+padding:30px;
+}
+
+header h1{
+font-size:40px;
+margin:0;
+}
+
+header span{
+color:orange;
+}
+
+section{
+padding:40px 20px;
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+max-width:900px;
+margin:auto;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:12px;
+box-shadow:0 5px 10px rgba(0,0,0,0.1);
+font-weight:bold;
+}
+
+.contact{
+background:white;
+max-width:600px;
+margin:auto;
+padding:30px;
+border-radius:12px;
+box-shadow:0 5px 10px rgba(0,0,0,0.1);
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:30px;
+text-decoration:none;
+font-weight:bold;
+}
+
+footer{
+background:#222;
+color:white;
+padding:20px;
+margin-top:40px;
+}
+
+</style>
+
 </head>
 
-<body style="font-family:Arial;text-align:center;background:#f5f1ec;">
+<body>
 
-<h1>PAS <span style="color:orange;">A</span> PAS</h1>
-<h2>LES BONNES OCCASIONS</h2>
+<header>
 
-<h3>Produits</h3>
+<h1>PAS <span>A</span> PAS</h1>
+<p>LES BONNES OCCASIONS</p>
 
-<p>Pneus</p>
-<p>Vélos</p>
-<p>Frigos</p>
-<p>Machines à laver</p>
-<p>Ordinateurs</p>
-<p>Téléphones</p>
-<p>Meubles</p>
-<p>Vêtements</p>
-<p>Chaussures</p>
-<p>Matelas</p>
+</header>
 
-<h3>Contact</h3>
+<section>
 
-<p>Adresse : Mdouwoilé Mirontsy Anjouan</p>
-<p>Téléphone : 0769515284</p>
-<p>WhatsApp : +2693265147</p>
+<h2>Nos Produits</h2>
 
-<p>Horaires :</p>
+<div class="products">
+
+<div class="card">Pneus</div>
+<div class="card">Vélos</div>
+<div class="card">Frigos</div>
+<div class="card">Machines à laver</div>
+<div class="card">Chaîne Hifi</div>
+<div class="card">Ordinateurs</div>
+<div class="card">Téléphones</div>
+<div class="card">Meubles</div>
+<div class="card">Vêtements</div>
+<div class="card">Chaussures</div>
+<div class="card">Matelas</div>
+<div class="card">Articles sport</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Contact</h2>
+
+<div class="contact">
+
+<p><b>Adresse :</b> Mdouwoilé Mirontsy Anjouan</p>
+
+<p><b>Téléphone :</b> 0769515284</p>
+
+<p><b>WhatsApp :</b> +2693265147</p>
+
+<p><b>Horaires :</b></p>
+
 <p>Lundi - Samedi : 08H00 - 19H00</p>
+
 <p>Dimanche : Fermé</p>
 
-<a href="https://wa.me/2693265147">Contacter sur WhatsApp</a>
+</div>
+
+</section>
+
+<a class="whatsapp" href="https://wa.me/2693265147">
+
+Contacter sur WhatsApp
+
+</a>
+
+<footer>
+
+PAS A PAS © 2026  
+Les bonnes occasions
+
+</footer>
 
 </body>
 </html>
